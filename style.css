@@ -1,0 +1,354 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* body part  */
+
+body{
+    background-color: #f0ede50a;
+    margin:0;
+}
+
+main p{
+    color:rgba(126, 119, 119, 0.712);
+}
+
+/* Copa america and first part style  */
+
+.container{
+    background-color: #000000;
+}
+.copa-america{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+}
+.section-title{
+    padding-left: 160px;
+    padding-top:80px;
+    font-size:30px;
+    color:white;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.watch{
+    margin-top:-36px;
+}
+ .link-button {
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding:9px 26px;
+    font-size:15px;
+    color:white;
+   }
+  .link-button:hover{
+       background-color: aqua;
+       color:black;
+       padding:15px;
+       border:1px sloid rgba(65, 233, 14, 0.527);
+       border-radius:30px;
+       font-size:20px;
+       transition: 0s;
+       }
+.fas{
+    margin-left: 4px;
+    font-size: 13px;
+}
+.copa-players img{
+    width:545px;
+    height:434px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-right: 150px;
+    transition: transform 1s;
+}
+.copa-players img:hover{
+    transform: scale(0.8);
+}
+
+/* --------------------------- PLayers and player details part
+ ----------------------------- */
+
+ .players-container{
+      width:80%; 
+     height:1893px;
+     margin-top:55px;
+     background-color:hsla(45, 26.7%, 70.6%, 0.12) ; 
+      margin-left: 170px; 
+ }
+
+ .top-players{
+     display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     align-items: center;
+     grid-column-gap: 20px;
+    grid-row-gap: 14px;
+    margin:13px;
+ }
+.players{
+    background-color:  white;
+    padding:14px;
+    box-shadow: 0px 0px 2px rgba(212, 206, 206, 0);
+    margin-top:16px;
+}
+ .player img{
+     width:300px;
+     height: 256px;
+ }
+
+
+ /*------------------------------All Highlights Copa America part
+ ------------------------------------ -------------------- */
+ .highlights-section{
+    margin-top:140px;
+    margin-bottom: 50px;
+}
+
+ .highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+ }
+ .section{
+     margin-left: 230px;
+     margin-top: 60px;
+ }
+ .final{
+     margin-top: 28px;
+ }
+ .copa-final img{
+     width:367px;
+     height:327px;
+     transition: transform 1s;
+ }
+ .copa-final img:hover{
+    transform: scale(0.8);
+ }
+
+ /*---------------------------------------- Footer part 
+ ----------------------------------------------- */
+
+ .last{
+     margin-top:113px;
+     margin-bottom: 30px;
+ }
+ .footer-info{
+     margin-left: 128px;
+     margin-top:5px;
+ }
+ .footballs{
+     margin-left: 440px;
+      display:grid;
+     grid-template-columns: repeat(1,1fr); 
+ }
+ .fa-instagram{
+     margin-left: 25px;
+ }
+ .fab{
+     padding:7px;
+     background-color: hsla(44.5, 32.6%, 81.4%, 0.7);
+     border-radius: 35px;
+     margin-right: 5px;
+     margin-bottom: 16px;
+ }
+ .fab:hover{
+     background-color:white;
+ }
+ .football img{
+     width:483px;
+     height:110px;
+ }
+
+
+ /* -----------------Responsive style  
+ ---------------------------------*/
+
+ /* mobile device  */
+ 
+ @media only screen and (max-width:688px) {
+    main{
+         width:100%;
+     }
+
+     /* Copa america and first part style mobile device */
+
+     .copa-players img{
+        width:220px;
+        height:200px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-left: 5px;
+    }
+    .watch{
+        margin-top: 16px;
+        margin-bottom: 4px;
+    }
+    .section-title{
+        padding-left: 20px;
+        padding-top:30px;
+        font-size:15px;
+        color:white;
+    }
+   
+    /* --------------------------- PLayers and player details part mobile device
+ ----------------------------- */
+
+    .players-container{
+        width:auto;
+       height:5450px; 
+       margin-top:15px; 
+       margin-left: 2px; 
+      background-color: white;
+   }
+    .top-players{
+        margin:1px;
+    }
+    .player img{
+        width:250px;
+        height: 220px;
+    }
+
+    /*------------------------------All Highlights Copa America part mobile device
+ ------------------------------------ -------------------- */
+
+
+    .highlights-section{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    .highlights{
+        grid-column-gap: 15px;
+     }
+     .section{
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    .final{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .copa-final img{
+        margin-left: 3px;
+        width:207px;
+        height:187px;
+    }
+
+    /*---------------------------------------- Footer part mobile device
+ ----------------------------------------------- */
+
+    .footballs{
+        margin-left: 10px;
+    }
+    .football img{
+        width:223px;
+        height:60px;
+    }
+    .footer-info{
+        margin-left: 12px;
+        margin-top:5px;
+    }
+    .last{
+        margin-top:40px;
+        margin-bottom: 20px;
+    }
+   .copa-america , .top-players , .highlights, .footballs {
+       
+      grid-template-columns: repeat(1, 1fr);
+      
+   }
+   
+    }
+
+    /*----------------- tablet screen
+    ------------------------  */
+
+    @media only screen and (min-width:689px) and (max-width:993px) {
+        .main{
+            width:auto;
+        }
+
+        /* Copa america and first part style tab device */
+
+        .copa-players img{
+            width:220px;
+            height:200px;
+            padding-top: 35px;
+            padding-bottom: 15px;
+            margin-left: 5px;
+        }
+        .watch{
+            margin-top: 16px;
+            margin-bottom: 4px;
+        }
+        
+        .section-title{
+            padding-left: 60px;
+            padding-top:30px;
+            font-size:15px;
+            color:white;
+        }
+
+ /* --------------------------- PLayers and player details part tab device
+ ----------------------------- */
+
+        .players-container{
+            width:auto;
+           height:3000px; 
+           margin-top:15px; 
+           margin-left: 2px; 
+          background-color: white;
+       }
+       .players{
+        background-color:  rgba(128, 128, 128, 0.089);
+        padding:14px;
+        box-shadow: 0px 0px 2px rgba(212, 206, 206, 0);
+        margin-top:16px;
+    }
+
+     /*------------------------------All Highlights Copa America part tab device
+ ------------------------------------ -------------------- */
+
+    .highlights-section{
+        margin-top:40px;
+        margin-bottom: 30px;
+    }
+    .highlights{
+        grid-column-gap: 20px;
+     }
+     .section{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .copa-final img{
+        width:280px;
+        height:250px;
+    }
+
+     /*---------------------------------------- Footer part mobile device tab device
+ ----------------------------------------------- */
+
+    .last{
+        margin-top:13px;
+        margin-bottom: 30px;
+    }
+    .footer-info{
+        margin-left: 60px;
+        margin-top:5px;
+    }
+    .football img{
+        width:223px;
+        height:60px;
+    }
+    .footballs{
+       
+        margin-left: 190px;
+         display:grid;
+        grid-template-columns: repeat(1,1fr); 
+    }
+    
+        .copa-america , .highlights, .top-players {
+            grid-template-columns: repeat(2, 1fr);
+
+            }
+        
+        
+    }
